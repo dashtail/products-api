@@ -1,0 +1,25 @@
+{
+  "name": "ProductsManager",
+  "version": "0.0.0",
+  "description": "ProductsManager",
+  "main": "server.js",
+  "author": {
+    "name": "Rafael Cabral",
+    "email": "rafaelbkbral@gmail.com"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "consign": "^0.1.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "express-session": "*",
+    "jsonwebtoken": "^7.4.1",
+    "mocha": "^3.4.2",
+    "mongoose": "^4.4.19",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
